@@ -1,24 +1,24 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2013-07-14 18:58:28
-categories: jekyll update
+title:  "Arts and Crafts"
+categories: blog
+author: "Mike"
+tags:
+ - "Hermit Crab in Space"
+ - "IndieCade"
+
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+Hey all,
 
-Jekyll also offers powerful support for code snippets:
+So we’re in this weird holding period with our upcoming projects, so we figured we’d delve into some social media functions for Worm Run. Andy is investigating some stuff for the OpenFrameworks and you’ll all be able to tweet about your runs! Social media was severely lacking in our last games so better late then never right?
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+On the subject of updates, we did get this one request from someone on Twitter a few days ago:[![tweet](http://goldenrubygames.com/wp/wp-content/uploads/2013/06/tweet01.jpg)][tweet]
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
+We know it’s a bit frustrating, but we found while testing that a lot of people tended to flip the phone accidentally. This was mostly because of fear from the Worm catching them and their bodies getting so into it. If it becomes more of an issue we’d consider changing it over.
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+We’ll let you know when the new update is available so you can all tweet your best scores out to the universe!
+
+-Mike
+
+[tweet]: http://goldenrubygames.com/blog/tweet-the-worm/attachment/tweet01

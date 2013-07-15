@@ -1,0 +1,39 @@
+.site-main
+  max-width: $xlarge
+  margin: 0 auto
+  padding: 0 5%
+  position: relative
+  z-index: 10
+
+  @include breakpoint($large)
+    +clearfix
+
+.posts
+  background: white
+  padding: $gutter
+  border-top: 1em solid $primary
+  +box-sizing(border-box)
+  margin-bottom: $gutter-percentage
+
+  @include breakpoint($large)
+    width: 72.5%
+    float: left
+    margin-right: 2.5%
+
+.titles
+
+  @include breakpoint($large)
+    float: right
+    width: 25%
+
+.column-2
+  max-width: 600px
+  margin: 0 auto 0
+
+
+@import elements/header
+@import elements/logo
+@import elements/post
+@import elements/block
+@import elements/footer
+@import elements/lights

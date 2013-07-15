@@ -1,0 +1,58 @@
+@import compass/utilities/general/clearfix
+@import compass/css3/box-sizing
+@import compass/css3/background-size
+@import compass/css3/images
+@import compass/css3/transition
+@import compass/css3/border-radius
+@import compass/css3/opacity
+@import color-schemer
+@import breakpoint
+
+// ==========================================================================
+// Breakpoints
+
+$xsmall: 16em
+$small: 24em
+$medium: 38em
+$large: 53em
+$xlarge: 60em
+
+// ==========================================================================
+// Grid
+
+$gutter: 2em
+$gutter-percentage: 5%
+
+// ==========================================================================
+// Colors
+
+$cs-primary:           #fcb24c
+$cs-scheme:            analogic
+$cs-hue-offset:        40
+$cs-brightness-offset: 10
+$cs-color-model:       rgb
+
+$primary: cs-primary()
+$secondary: #f89734
+$tertiary: #e87d3d
+$quadrary: shade($tertiary, 80%)
+
+$background-color: black
+$text-color: $quadrary
+
+// ==========================================================================
+// Typography
+
+$serif: 'Merriweather Sans', Georgia, serif
+$sans: 'Telex', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+$monospace: "source-code-pro", monospace
+
+// ==========================================================================
+// Other stuff
+
+$radius: 4px
+
+@import normalize
+@import global
+@import elements
+

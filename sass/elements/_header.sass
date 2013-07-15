@@ -1,0 +1,53 @@
+.site-header
+  max-width: $xlarge
+  margin: 0 auto 0
+  padding: 0 5%
+  position: relative
+  z-index: 10
+  
+  nav
+    display: block
+    background: $secondary
+
+  ul
+    +clearfix
+    text-align: center
+
+  li
+
+    @include breakpoint($medium)
+      display: inline-block
+
+    @include breakpoint($large)
+      width: 25%
+      float: left
+
+  a
+    display: block
+    @extend .font-block
+    background: $secondary
+    padding: 1em
+    color: white
+
+    &:hover
+      background: $tertiary
+      color: white
+      text-decoration: none
+
+.social
+  padding-bottom: .65em
+
+  a 
+    display: inline
+    padding: 0 0 0
+    margin: 0
+    +opacity(1)
+    background: none
+
+    img
+      height: 1.9em
+      padding: .8em .5em 0 0
+
+    &:hover
+      background: none
+      +opacity(.6)

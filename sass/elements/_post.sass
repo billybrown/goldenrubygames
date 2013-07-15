@@ -1,0 +1,84 @@
+.post
+  margin-bottom: $gutter
+  padding-bottom: $gutter
+  border-bottom: 1px solid $primary
+
+  header
+    margin-bottom: .5em
+
+.post-meta
+  color: tint($quadrary, 70%)
+  @extend .font-block
+
+.tags
+  margin: $gutter/8 0
+  +clearfix
+
+  a
+    @extend .font-block
+    background: $secondary
+    color: white
+    padding: .25em .5em
+    float: left
+    display: block
+    margin: 0 .5em .5em 0
+
+    &:hover
+      background: $tertiary
+      text-decoration: none
+
+.post-comments
+  @extend .font-block
+  text-align: right
+
+//wordpress thing
+.post-content
+
+  img
+    display: block
+    margin: 1em 0
+
+.games
+  +clearfix
+  margin-bottom: 5%  
+
+  li
+    background: white
+    margin-bottom: $gutter
+
+    @include breakpoint($medium)
+      width: 48.25%
+      float: left
+
+      &:nth-child(odd)
+        margin-right: 1.75%
+
+      &:nth-child(even)
+        margin-left: 1.75%
+
+    h1
+      margin: 0
+
+  .text
+    padding: $gutter/2
+
+  .platform
+    @extend .font-block
+
+.action
+
+  a
+    @extend .font-block
+    background: $secondary
+    color: white
+    padding: 1em
+    text-align: center
+    display: block
+
+    &:hover
+      background: $primary
+      text-decoration: none
+
+
+
+

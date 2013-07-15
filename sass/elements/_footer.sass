@@ -1,0 +1,54 @@
+.site-footer
+  background: url('../img/pattern3.png') center
+  position: relative
+  z-index: 10
+
+  a
+    background: $quadrary
+    padding: .25em .5em
+
+    &:hover
+      text-decoration: none
+      background: shade($tertiary, 50%)
+      color: $primary
+
+.footer-inside
+  max-width: $xlarge
+  margin: 0 auto
+  padding: $gutter $gutter-percentage
+
+  @include breakpoint($large)
+    +clearfix
+
+.legal p, .contact p, .social-media li, .friends li
+  @extend .font-block
+  margin: 0
+  padding: 0
+
+.contact p, .social-media li
+  margin-bottom: .5em
+
+.footer-section
+  margin-bottom: $gutter
+
+  @include breakpoint($large)
+    width: 25%
+    float: left
+
+.footer-title
+  margin-bottom: .25em
+
+  @include breakpoint($large)
+    border-top: 1px solid $quadrary
+    margin-right: $gutter
+    padding-top: $gutter/6
+
+.legal
+
+  p
+    border-top: 1px solid $quadrary
+    padding-top: $gutter/2
+    margin-right: $gutter
+
+
+
