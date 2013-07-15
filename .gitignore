@@ -39,7 +39,7 @@ Thumbs.db
 
 # sass #
 ######################
-sass-cache
+.sass-cache
 
 # Jekyll #
 ######################
