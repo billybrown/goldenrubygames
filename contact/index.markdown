@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title:  "Contact Us"
 categories: contact
-
 ---
 
 #{{ page.title}}#

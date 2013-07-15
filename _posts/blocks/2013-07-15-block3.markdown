@@ -1,7 +1,11 @@
 ---
-layout: post
-categories: block
+
 
 title:  "Worm Run"
 image: "/img/game-wormrun.jpg"
+link: "/games"
+categories: 
+- block
+
+
 ---

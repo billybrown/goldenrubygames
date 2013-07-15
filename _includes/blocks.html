@@ -4,13 +4,14 @@
       		<li class="block">
             	<div class="inside">
                 <h3 class="block-title">
-                  <a href="{{ post.url }}">{{ post.title }}</a>
+                  <a href="{{ post.link }}">{{ post.title }}</a>
                 </h3>
-                <a href="{{ post.url }}">
+                <a href="{{ post.link }}">
                   <img src="{{ post.image }}" alt="{{ post.title }}"/>
                 </a>
               </div>
       		</li>
-    	{% endfor %}
+      {% endfor %}
     </ul>
 </section>
+

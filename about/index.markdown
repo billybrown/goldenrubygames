@@ -1,8 +1,7 @@
 ---
-layout: post
+layout: page
 title:  "The Company"
 categories: about
-
 ---
 
 #{{ page.title}}#

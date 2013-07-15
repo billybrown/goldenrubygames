@@ -1,9 +1,31 @@
 ---
-layout: default
+layout: page
 title: Golden Ruby Games
 description: Golden Ruby Games is a small, indie-game company located in New York City. We are dedicated to making unique and memorable games for everyone.
+category: blog
 ---
 
-	{% include blocks.html %}
- 	{% include posts.html %}
+{% for post in site.categories.blog | limit: 10 %}
+
+  <article class="post">
+      <header class="post-header">
+          <h1 class="post-title">{{ post.title }}</h1>
+          <div class="post-meta">Posted by {{ post.author }} on </div>
+          <ul class="no-list tags">
+            {% for item in post.tags %}
+              <li><a href="">{{ item }}</a></li>
+            {% endfor %}
+          </ul>
+      </header>
+      <div class="post-content">
+        {{ post.content }}
+      </div>
+      <footer class="post-footer">
+          <div class="post-comments">
+              <a href="">5 comments</a>
+          </div>
+      </footer>
+  </article>
+
+  {% endfor %}
 

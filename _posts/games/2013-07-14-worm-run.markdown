@@ -1,0 +1,59 @@
+---
+layout: game
+categories:
+- game
+
+title:  "Worm Run"
+image: "/img/game_screen2.jpg"
+platform:
+ - PC
+ - iOS
+
+download-iphone: https://itunes.apple.com/us/app/worm-run/id569497239?mt=8
+download-ipad: https://itunes.apple.com/us/app/worm-run/id569497239?mt=8
+
+video: <iframe src="http://player.vimeo.com/video/58134825?title=0&amp;byline=0&amp;portrait=0&amp;color=ff2c4a" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+
+images:
+- "/img/game_screen1.jpg"
+- "/img/game_screen1.jpg"
+- "/img/game_screen1.jpg"
+
+logo: "/img/game_screen1.jpg"
+icon: "/img/game_screen1.jpg"
+
+summary: SWIPE TO SURVIVE! 
+---
+
+SWIPE TO SURVIVE! 
+
+You are Zeke Tallahassee, hapless space miner in the wrong place at the wrong time. Swipe on your touchscreen to move Zeke through an ever changing labyrinth all while being chased by a blood-thirsty, gigantic space Worm. 
+
+**Features**
+
+★ Unique and innovative control scheme. Swipe anywhere on screen to move, no D-Pad needed! 
+
+★ Easy to play, insanely difficult to master. 
+
+★ Procedurally generated levels give you a different experience every time you play. 
+
+★ Collect Grubies to buy crazy items to help you escape the Worm. 
+
+★ Challenge your friends in Game Center to get the best distance. 
+
+★ Five unique and challenging worlds to traverse. 
+
+★ Boatloads of hazards to avoid while running for your life.
+
+**Articles**
+
+"A brilliant variation on the endless-runner genre, Worm Run is breathless, addictive fun of the highest calibre" - Pocket Gamer
+
+"The swipe-based controls make the repetition feel frantic and fun." - Slide To Play
+
+"If you're a fan of endless runners, platformers, or giant fuzzy worms, keep an eye on this one..." - Gamezebo
+
+"The game features a dynamically generated environment, retro graphics and sounds, a uniquely challenging swipe control system..." -Appadvice
+
+"(A) nice twist on the rather stagnant endless runner genre..." - Inside Social Apps
+
