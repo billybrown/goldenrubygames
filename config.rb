@@ -3,7 +3,6 @@
 require 'compass'
 require 'color-schemer'
 require 'breakpoint'
-require 'singularitygs'
 
 # Set this to the root of your project when deployed:
 http_path = "/"

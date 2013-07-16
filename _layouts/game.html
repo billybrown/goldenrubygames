@@ -2,11 +2,114 @@
 layout: default
 ---
 
-  <article class="post">
-      <header class="post-header">
-          <h1 class="post-title">{{ post.title }}</h1>
-      </header>
-      <div class="post-content">
-        {{ content }}
-      </div>
-  </article>
+	<section class="column-main posts">
+
+  		<article class="post">
+  		    <header class="post-header">
+  		    	<div class="header-image"><img src="{{page.image}}" alt="{{page.title}}"/></div>
+  		        <h1 class="post-title">{{ page.title }}</h1>
+				<p class="platform">
+					(
+					    {% for item in page.platform %}
+							{{ item }},
+						{% endfor %}
+					)
+				</p>
+  		    </header>
+  		    <div class="post-content">
+  		      {{ content }}
+  		    </div>
+  		    <ul class="no-list game-section game-videos">
+				{% for item in page.videos %}
+  		    		<li><div class="fluidvideowrapper">{{item}}</div></li>
+				{% endfor %}
+  		    </ul>
+  		    <ul class="no-list game-section game-photos">
+				{% for item in page.images %}
+  		    		<li><img src="{{item}}" alt="{{page.title}}"/></li>
+				{% endfor %}
+  		    </ul>
+  		    {% if page.icon %}
+				<div class="game-section game-icon">
+					<h3>Icon</h3>
+					<img src="{{page.icon}}" alt="{{page.title}}"/>
+				</div>
+			{% endif %}
+			{% if page.logos %}
+				<div class="game-section game-logo">
+					<h3>Logo</h3>
+					{% for item in page.logos %}
+						<img src="{{ item }}" alt="{{page.title}}"/>
+					{% endfor %}
+				</div>
+			{% endif %}
+
+  		</article>
+	</section>
+
+
+	<section class="titles game-page">
+	    <ul class="no-list blocks">
+     		<li class="block downloads">
+            	<div class="inside">
+                	<h3 class="block-title">Download</h3>
+                	{% if page.download-ipad %}<a href="{{page.download-ipad}}"><img src="/img/ipad_dl_link.png" alt="Download ipad version"/></a>{% endif %}
+                	{% if page.download-iphone %}<a href="{{page.download-iphone}}"><img src="/img/iphone_dl_link.png" alt="Download iphone version"/></a>{% endif %}
+              </div>
+      		</li>
+     		<li class="block info-section">
+            	<div class="inside">
+                	<h3 class="block-title">Contact</h3>
+                	<ul class="no-list">
+                		<li>
+							<p class="label">Developer</p>
+							<p>Golden Ruby Games</p>
+						</li>
+						<li>
+							<p class="label">Press / Business Contact</p>
+							<p><a href="mailto:info@goldenrubygames.com">info@goldenrubygames.com</a></p>
+						</li>
+						<li>
+							<p class="label">Social Media</p>
+							<p><a href="https://www.facebook.com/GoldenRubyGames">Facebook</a></p>
+							<p><a href="https://twitter.com/GoldenRubyGames">Twitter</a></p>
+							<p><a href="http://goldenrubygames.tumblr.com/">Tumblr</a></p>
+						</li>
+						<li>
+							<p class="label">Phone</p>
+							<p>212-564-5039</p>
+						</li>
+						<li>
+							<p class="label">Address</p>
+							<p>350 5th Ave. New York, NY 10118. </p>
+						</li>
+						<li>
+							<p class="label">Founding Date</p>
+							<p>June 1st, 2012</p>
+						</li>
+						<li>
+							<p class="label">Website</p>
+							<p><a href="http://www.goldenrubygames.com">goldenrubygames.com</a></p>
+						</li>
+					</ul>
+              	</div><!--inside-->
+      		</li><!--block-->
+      		{% if page.team %}
+      		<li class="block team">
+      			<div class="inside">
+                	<h3 class="block-title">Team</h3>
+      				<ul class="no-list">
+      					{% for item in page.team %}
+      					<li>
+      						{% if item.image %}<img src="{{ item.image }}" alt="item.name"/>{% endif %}
+      						<p class="name"><strong>{{item.name}}</strong> - <em>{{item.role}}</em></p>
+      						<p class="description">{{item.description}}</p>
+      					</li>
+      					{% endfor %}
+      				</ul>
+      			</div>
+      		</li>
+      		{% endif %}
+
+		</ul>
+  	</section>

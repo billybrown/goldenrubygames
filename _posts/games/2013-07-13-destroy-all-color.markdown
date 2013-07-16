@@ -12,17 +12,26 @@ platform:
 download-iphone: http://itunes.apple.com/app/destroy-all-color!-hd/id549937765?mt=8
 download-ipad: http://itunes.apple.com/app/destroy-all-color!-hd/id549937765?mt=8
 
-video: <iframe src="http://player.vimeo.com/video/58134825?title=0&amp;byline=0&amp;portrait=0&amp;color=ff2c4a" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+videos: 
+- <iframe src="http://player.vimeo.com/video/47744504?title=0&amp;byline=0&amp;portrait=0&amp;color=ff2c4a" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 images:
-- "/img/game_screen1.jpg"
-- "/img/game_screen1.jpg"
-- "/img/game_screen1.jpg"
+- "/img/destroy-color/achievements1.png"
+- "/img/destroy-color/bomb1.png"
+- "/img/destroy-color/environment1.png"
+- "/img/destroy-color/kRoma1.png"
+- "/img/destroy-color/levels1.png"
 
-logo: "/img/game_screen1.jpg"
-icon: "/img/game_screen1.jpg"
+logos: 
+- "/img/destroy-color/Icon.png"
+- "/img/destroy-color/Icon-72.png"
+- "/img/destroy-color/Icon@2x.png"
+- "/img/destroy-color/Icon-144.png"
+
+icon: "/img/destroy-color/AppIcon1024x10241.png"
 
 summary: Only you can help K'Roma the Alien get home!
+
 ---
 
 *Only you can help K'Roma the Alien get home!*
@@ -37,7 +46,7 @@ Aim for crazy power ups like the Laser or Bomb to help you out.
 Avoid Poison blocks like the Mirror or Hyper Block that will try and trip you up. 
 See how far you can make it in *Endless Mode*, where the blocks only stop when you can't keep up. 
 
-**Articles**
+##Articles##
 
 "...bound to put your shutterbugging skills to the test." -  [indiegames.com](http://indiegames.com/2012/08/mobile_game_pick_destroy_all_c.html)
 

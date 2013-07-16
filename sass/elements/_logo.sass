@@ -8,16 +8,18 @@
   z-index: 100
 
 .logo
-  +opacity(0)
-  +transition(opacity 2s linear)
   position: relative
   z-index: 10
   width: 220px
   margin: 0 auto
 
-  &.appear
-    +opacity(1)
+  .home &
+    +opacity(0)
+    +transition(opacity 2s linear)
 
+    &.appear
+      +opacity(1)
+      
 #lights
   position: absolute
   top: 0

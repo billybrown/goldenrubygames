@@ -4,15 +4,14 @@ title: Games
 description: Golden Ruby Games is a small, indie-game company located in New York City. We are dedicated to making unique and memorable games for everyone.
 ---
 
-<div class="site-main" role="main">
         <section class="column-main">
            <ul class="no-list games">
 		{% for post in site.categories.game %}
                 <li class="featured">
                     <article class="game">
-                        <img src="{{ post.image }}" alt="game"/>
+                        <a href="{{ post.url }}"><img src="{{ post.image }}" alt="game"/></a>
                         <div class="text">
-                            <h1>{{ post.title }}</h1>
+                            <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
                             <p class="platform">
                             	(
                             	    {% for item in post.platform %}

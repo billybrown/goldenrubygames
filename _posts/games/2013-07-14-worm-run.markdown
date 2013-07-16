@@ -12,15 +12,20 @@ platform:
 download-iphone: https://itunes.apple.com/us/app/worm-run/id569497239?mt=8
 download-ipad: https://itunes.apple.com/us/app/worm-run/id569497239?mt=8
 
-video: <iframe src="http://player.vimeo.com/video/58134825?title=0&amp;byline=0&amp;portrait=0&amp;color=ff2c4a" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+videos: 
+- <iframe src="http://player.vimeo.com/video/58134825?title=0&amp;byline=0&amp;portrait=0&amp;color=ff2c4a" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 images:
-- "/img/game_screen1.jpg"
-- "/img/game_screen1.jpg"
-- "/img/game_screen1.jpg"
+- "/img/worm-run/iphone5buy.png"
+- "/img/worm-run/iphone5escape.png"
+- "/img/worm-run/iphone5map.png"
+- "/img/worm-run/iphone5swipe.png"
+- "/img/worm-run/iphone5unique.png"
 
-logo: "/img/game_screen1.jpg"
-icon: "/img/game_screen1.jpg"
+logos: 
+- "/img/worm-run/facebook-template1.jpg"
+
+icon: "/img/worm-run/iconIpadRetina-1.png"
 
 summary: SWIPE TO SURVIVE! 
 ---
@@ -29,7 +34,7 @@ SWIPE TO SURVIVE!
 
 You are Zeke Tallahassee, hapless space miner in the wrong place at the wrong time. Swipe on your touchscreen to move Zeke through an ever changing labyrinth all while being chased by a blood-thirsty, gigantic space Worm. 
 
-**Features**
+##Features##
 
 ★ Unique and innovative control scheme. Swipe anywhere on screen to move, no D-Pad needed! 
 
@@ -45,7 +50,7 @@ You are Zeke Tallahassee, hapless space miner in the wrong place at the wrong ti
 
 ★ Boatloads of hazards to avoid while running for your life.
 
-**Articles**
+##Articles##
 
 "A brilliant variation on the endless-runner genre, Worm Run is breathless, addictive fun of the highest calibre" - Pocket Gamer
 

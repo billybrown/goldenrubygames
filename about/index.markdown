@@ -2,6 +2,18 @@
 layout: page
 title:  "The Company"
 categories: about
+
+staff:
+- image: /img/staff1.jpg
+  name: Mike Christatos
+  role: Founder/COO
+  description: Mike is a graduate from Wake Forest University’s Business School with a background in publishing. After losing his common sense, he decided to open a video game development company in New York City. He lives in New York and can usually be found playing embarrassing JRPGs or debating the validity of the Zelda timeline.
+  email: mike@goldenrubygames.com
+- image: /img/staff2.jpg
+  name: Andy Wallace
+  role: Lead Programmer/Developer
+  description: A graduate of the MFA Design and Technology program at Parsons, Andy Wallace is a game maker, animator, and coder, with a love of all things interactive. He lives in NYC and is looking forward to when he can move into a place that allows dogs.
+  email: andy@goldenrubygames.com
 ---
 
 #{{ page.title}}#
@@ -15,24 +27,17 @@ Approached by NBC Universal, Atlantic Records and the Empire State Building, Gol
 
 After *Destroy!* was released, Golden Ruby refocused their efforts on their second game; Worm Run. The company enlisted the help of the extremely talented artist Nicolas Cinqugrani. Worm Run is set for release for this February for iOS.
 
-<div class="staff-photo">
-<img src="/img/staff1.jpg" alt="staff photo"/>
-</div>
-
-**Founder/COO – Mike Christatos**
-
-Mike is a graduate from Wake Forest University’s Business School with a background in publishing. After losing his common sense, he decided to open a video game development company in New York City. He lives in New York and can usually be found playing embarrassing JRPGs or debating the validity of the Zelda timeline.
-
-Drop him a line at <mike@goldenrubygames.com>.
-
-<div class="staff-photo">
-<img src="/img/staff2.jpg" alt="staff photo"/>
-</div>
-
-**Lead Programmer/Developer – Andy Wallace**
-
-A graduate of the MFA Design & Technology program at Parsons, Andy Wallace is a game maker, animator, and coder, with a love of all things interactive. He lives in NYC and is looking forward to when he can move into a place that allows dogs.
-
-Tell him you think he rocks: <andy@goldenrubygames.com>.
+<ul class="no-list staff">
+	{% for item in page.staff %}
+	<li>
+		<div class="staff-photo">
+			<img src="{{item.image}}" alt="{{item.name}}"/>
+		</div>
+		<h2>{{ item.name}} - {{item.role}}</h2>
+		<p>{{item.description}}</p>
+		<p><a href="mailto:{{item.email}}">{{item.email}}</a></p>
+	</li>
+	{% endfor %}
+</ul>
 
 [destroy-itunes]: https://itunes.apple.com/us/app/destroy-all-color!-hd/id549937765?mt=8

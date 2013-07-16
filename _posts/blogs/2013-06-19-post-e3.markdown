@@ -1,0 +1,33 @@
+--- 
+layout: post
+title: Post-E3
+categories: 
+- Blog
+tags: []
+
+status: publish
+type: post
+published: true
+meta: 
+  _edit_last: "2"
+  dsq_thread_id: ""
+---
+Hey all,
+
+Got back from (my very first) E3 a few days ago. It truly was a dream come true and so much fun. Sony treated me with the utmost respect and I felt like a AAA developer at times.
+
+Of course our game, Hermit Crab in Space, was a bit overshadowed by the PS4 and XBox One, but that was to be expected. All in all I met a great many people, forged some contacts and showed off the game.
+
+Now that I'm back in New York, Andy and I are working hard to put the finishing touches on the PSM build of Hermit Crab in Space. I think my favorite part is the addition of the animated character sprites in the vain of Star Fox. We're also adding an endless mode!
+
+If you guys have access to PSM, please pick up Hermit Crab in Space when it's released. We'll let you know when that is!
+
+![hermitcrab](http://goldenrubygames.com/wp/wp-content/uploads/2013/06/crab-300x64.gif)
+
+![hermitcrab](http://goldenrubygames.com/wp/wp-content/uploads/2013/06/foe14-300x64.gif)
+
+![hermitcrab](http://goldenrubygames.com/wp/wp-content/uploads/2013/06/foe11-300x64.gif)
+
+![hermitcrab](http://goldenrubygames.com/wp/wp-content/uploads/2013/06/foe7-300x64.gif)
+
+-Mike
