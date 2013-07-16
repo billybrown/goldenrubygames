@@ -31,7 +31,7 @@ After *Destroy!* was released, Golden Ruby refocused their efforts on their seco
 	{% for item in page.staff %}
 	<li>
 		<div class="staff-photo">
-			<img src="{{item.image}}" alt="{{item.name}}"/>
+			<img src="{{ site.baseurl}}{{item.image}}" alt="{{item.name}}"/>
 		</div>
 		<h2>{{ item.name}} - {{item.role}}</h2>
 		<p>{{item.description}}</p>

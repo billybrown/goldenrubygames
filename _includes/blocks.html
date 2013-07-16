@@ -4,10 +4,10 @@
       		<li class="block">
             	<div class="inside">
                 <h3 class="block-title">
-                  <a href="{{ post.link }}">{{ post.title }}</a>
+                  <a href="{{ site.baseurl}}{{ post.link }}">{{ post.title }}</a>
                 </h3>
-                <a href="{{ post.link }}">
-                  <img src="{{ post.image }}" alt="{{ post.title }}"/>
+                <a href="{{ site.baseurl}}{{ post.link }}">
+                  <img src="{{ site.baseurl}}{{ post.image }}" alt="{{ post.title }}"/>
                 </a>
               </div>
       		</li>

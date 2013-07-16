@@ -6,7 +6,7 @@ layout: default
 
   		<article class="post">
   		    <header class="post-header">
-  		    	<div class="header-image"><img src="{{page.image}}" alt="{{page.title}}"/></div>
+  		    	<div class="header-image"><img src="{{ site.baseurl}}{{page.image}}" alt="{{page.title}}"/></div>
   		        <h1 class="post-title">{{ page.title }}</h1>
 				<p class="platform">
 					(
@@ -26,20 +26,20 @@ layout: default
   		    </ul>
   		    <ul class="no-list game-section game-photos">
 				{% for item in page.images %}
-  		    		<li><img src="{{item}}" alt="{{page.title}}"/></li>
+  		    		<li><img src="{{ site.baseurl}}{{item}}" alt="{{page.title}}"/></li>
 				{% endfor %}
   		    </ul>
   		    {% if page.icon %}
 				<div class="game-section game-icon">
 					<h3>Icon</h3>
-					<img src="{{page.icon}}" alt="{{page.title}}"/>
+					<img src="{{ site.baseurl}}{{page.icon}}" alt="{{page.title}}"/>
 				</div>
 			{% endif %}
 			{% if page.logos %}
 				<div class="game-section game-logo">
 					<h3>Logo</h3>
 					{% for item in page.logos %}
-						<img src="{{ item }}" alt="{{page.title}}"/>
+						<img src="{{ site.baseurl}}{{ item }}" alt="{{page.title}}"/>
 					{% endfor %}
 				</div>
 			{% endif %}
@@ -53,8 +53,8 @@ layout: default
      		<li class="block downloads">
             	<div class="inside">
                 	<h3 class="block-title">Download</h3>
-                	{% if page.download-ipad %}<a href="{{page.download-ipad}}"><img src="/img/ipad_dl_link.png" alt="Download ipad version"/></a>{% endif %}
-                	{% if page.download-iphone %}<a href="{{page.download-iphone}}"><img src="/img/iphone_dl_link.png" alt="Download iphone version"/></a>{% endif %}
+                	{% if page.download-ipad %}<a href="{{page.download-ipad}}"><img src="{{ site.baseurl}}/img/ipad_dl_link.png" alt="Download ipad version"/></a>{% endif %}
+                	{% if page.download-iphone %}<a href="{{page.download-iphone}}"><img src="{{ site.baseurl}}/img/iphone_dl_link.png" alt="Download iphone version"/></a>{% endif %}
               </div>
       		</li>
      		<li class="block info-section">
@@ -89,7 +89,7 @@ layout: default
 						</li>
 						<li>
 							<p class="label">Website</p>
-							<p><a href="http://www.goldenrubygames.com">goldenrubygames.com</a></p>
+							<p><a href="{{ site.baseurl}}">goldenrubygames.com</a></p>
 						</li>
 					</ul>
               	</div><!--inside-->
@@ -101,7 +101,7 @@ layout: default
       				<ul class="no-list">
       					{% for item in page.team %}
       					<li>
-      						{% if item.image %}<img src="{{ item.image }}" alt="item.name"/>{% endif %}
+      						{% if item.image %}<img src="{{ site.baseurl}}{{ item.image }}" alt="item.name"/>{% endif %}
       						<p class="name"><strong>{{item.name}}</strong> - <em>{{item.role}}</em></p>
       						<p class="description">{{item.description}}</p>
       					</li>

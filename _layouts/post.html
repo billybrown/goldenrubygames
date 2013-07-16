@@ -8,7 +8,7 @@ layout: page
           <div class="post-meta">Posted by {{ page.author }} on {{ page.date | date_to_string }}</div>
           <ul class="no-list tags">
             {% for item in page.tags %}
-              <li><a href="">{{ item }}</a></li>
+              <li><a href="{{ site.baseurl}}">{{ item }}</a></li>
             {% endfor %}
           </ul>
       </header>
