@@ -8,12 +8,6 @@ tags:
 - openframeworks
 - unity
 - worm run
-status: publish
-type: post
-published: true
-meta: 
-  _edit_last: "2"
-  dsq_thread_id: ""
 author: Mike
 comments: true
 ---

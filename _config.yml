@@ -1,11 +1,83 @@
 name: Golden Ruby Games
-pygments: true
-
-# for github pages
+permalink: /:categories/:title.html
 baseurl: /goldenrubygames
-
-# for prose
 prose:
-  siteurl: "http://billybrown.github.io/goldenrubygames/"
-  media: "/img"
-  relativeLinks: "ABSOLUTE-URL.jsonp"
+  rooturl: '_posts'
+  siteurl: 'http://billybrown.github.io/goldenrubygames/'
+  relativeLinks: 'http://billybrown.github.io/goldenrubygames/links.jsonp'
+  media: 'img'
+  metadata:
+    _posts/blogs:
+      - name: "categories"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "dev blog"
+              value: "dev blog"
+            - name: "openframeworks"
+              value: "openframeworks"
+    _posts/games:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "game"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
+      - name: "image"
+        field:
+          element: "text"
+          label: "Splash image"
+          value: ""
+      - name: "videos"
+        field:
+          element: "text"
+          label: "Video"
+          value: ""
+      - name: "images"
+        field:
+          element: "text"
+          label: "Images"
+          value: ""
+      - name: "logos"
+        field:
+          element: "text"
+          label: "Logos"
+          value: ""
+      - name: "icon"
+        field:
+          element: "text"
+          label: "icon"
+          value: ""
+      - name: "summary"
+        field:
+          element: "text"
+          label: "Summary"
+          value: ""
+      - name: "platform"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "PC"
+              value: "PC"
+            - name: "iOS"
+              value: "iOS"

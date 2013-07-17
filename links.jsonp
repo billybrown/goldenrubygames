@@ -1,0 +1,23 @@
+callback([
+
+  {
+    "text": "About",
+    "href": "/goldenrubygames/about/"
+  } ,
+
+  {
+    "text": "Worm Run",
+    "href": "/goldenrubygames/game/2013/07/14/worm-run.html"
+  } ,
+
+  {
+    "text": "Hermit Crab in Space",
+    "href": "/goldenrubygames/game/2013/07/15/hermit-crab-in-space.html"
+  } ,
+
+  {
+    "text": "Destroy All Color",
+    "href": "/goldenrubygames/game/2013/07/13/destroy-all-color.html"
+  } 
+
+])
