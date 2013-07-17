@@ -5,7 +5,7 @@ pygments: true
 baseurl: /goldenrubygames
 
 # for prose
-siteurl: "http://billybrown.github.io/goldenrubygames/"
-media: "/img"
-
-relativeLinks: "ABSOLUTE-URL.jsonp"
+prose:
+  siteurl: "http://billybrown.github.io/goldenrubygames/"
+  media: "/img"
+  relativeLinks: "ABSOLUTE-URL.jsonp"
