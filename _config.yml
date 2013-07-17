@@ -1,3 +1,11 @@
 name: Golden Ruby Games
 pygments: true
+
+# for github pages
 baseurl: /goldenrubygames
+
+# for prose
+siteurl: "http://billybrown.github.io/goldenrubygames/"
+media: "/img"
+
+relativeLinks: "ABSOLUTE-URL.jsonp"
